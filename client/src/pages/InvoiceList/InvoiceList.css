@@ -1,0 +1,16 @@
+@import '../../styles/theme.css';
+
+.invoice-list-container {
+  padding: 2rem;
+}
+
+.invoice-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.invoice-table th,
+.invoice-table td {
+  border: 1px solid var(--border-color);
+  padding: 8px;
+}

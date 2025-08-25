@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const { createInvoice, getInvoices, getInvoiceById } = require('../controllers/invoiceController');
-const { protect, authorize } = require('../middleware/authMiddleware');
+const { protect, authorize } = require('../middlewares/authMiddleware');
 
 // All routes here are protected and require a valid token
 router.use(protect);

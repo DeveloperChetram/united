@@ -1,0 +1,8 @@
+@import '../../styles/theme.css';
+
+.create-invoice-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
